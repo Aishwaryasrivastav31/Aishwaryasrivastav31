@@ -1,13 +1,5 @@
  I’m Aishwarya Srivastav 
-
-I love coding, reading, watching anime, and painting
-
- Currently learning and exploring new tech every day
-
- Open to collaborating on exciting and meaningful projects
-
  Reach me via GitHub or connect on LinkedIn
-
  Pronouns: she/her
 
 
