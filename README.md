@@ -1,6 +1,6 @@
 # 💫 About Me:
-Machine Learning | Deep Learning | Researcher
-Making tech documentation look "aesthetic 💫"
+Machine Learning | Deep Learning | Researcher <br>
+Making tech documentation look aesthetic 💫 <br>
 Coffee and code<br> 
 
 
