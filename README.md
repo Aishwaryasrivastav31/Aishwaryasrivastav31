@@ -1,5 +1,7 @@
 # 💫 About Me:
- Machine Learning Engineer focused on Computer Vision, MLOps, and Generative AI<br> Building reproducible, production-ready ML pipelines<br> 
+Machine Learning | Deep Learning | Researcher
+Making tech documentation look "aesthetic 💫"
+Coffee and code<br> 
 
 
 ## 🌐 Socials:
