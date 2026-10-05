@@ -1,94 +1,76 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1076" height="885" viewBox="0 0 1076 885" font-family="Consolas, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="16px">
-<style>text{white-space:pre}@keyframes show{from{opacity:0}to{opacity:1}}@keyframes blink{50%{opacity:0}}.l,.a{animation:show .35s ease-out both}.cur{animation:blink 1.1s steps(1) infinite}@media (prefers-reduced-motion:reduce){.l,.a,.cur{animation:none}}</style>
-<rect width="1076" height="885" fill="#000000"/>
-<g fill="#ffffff">
-<text class="a" style="animation-delay:0.00s" x="20" y="33.0" font-size="13px" textLength="436.8" xml:space="preserve">                                                        </text>
-<text class="a" style="animation-delay:0.03s" x="20" y="49.2" font-size="13px" textLength="436.8" xml:space="preserve">                         .:;;;;:.                       </text>
-<text class="a" style="animation-delay:0.06s" x="20" y="65.5" font-size="13px" textLength="436.8" xml:space="preserve">                      .::;;**;;*;*;;;;:.                </text>
-<text class="a" style="animation-delay:0.09s" x="20" y="81.8" font-size="13px" textLength="436.8" xml:space="preserve">                     .::.:::;;:;*l;;::::;:              </text>
-<text class="a" style="animation-delay:0.12s" x="20" y="98.0" font-size="13px" textLength="436.8" xml:space="preserve">                    .::::..::::*lJ*;:::.::::            </text>
-<text class="a" style="animation-delay:0.15s" x="20" y="114.2" font-size="13px" textLength="436.8" xml:space="preserve">                   .**;:.:.::;;*lJll;;:...:::           </text>
-<text class="a" style="animation-delay:0.18s" x="20" y="130.5" font-size="13px" textLength="436.8" xml:space="preserve">                 .:***:::.;**lJJXXooJl*;:...::.         </text>
-<text class="a" style="animation-delay:0.21s" x="20" y="146.8" font-size="13px" textLength="436.8" xml:space="preserve">               :*l**;:.:;*lJJooXXXXXXoJJl*:..::         </text>
-<text class="a" style="animation-delay:0.24s" x="20" y="163.0" font-size="13px" textLength="436.8" xml:space="preserve">             .;l***:.:;*looXXX&amp;XX&amp;XXXXXXol*:..::        </text>
-<text class="a" style="animation-delay:0.27s" x="20" y="179.2" font-size="13px" textLength="436.8" xml:space="preserve">           .**l*l;:::*loXX&amp;X&amp;&amp;X&amp;XXXXXXXXooJl;:.::       </text>
-<text class="a" style="animation-delay:0.30s" x="20" y="195.5" font-size="13px" textLength="436.8" xml:space="preserve">          :*****;;;*lJXX&amp;&amp;&amp;&amp;&amp;&amp;X&amp;X&amp;XXXXoXoooJJ:..:       </text>
-<text class="a" style="animation-delay:0.33s" x="20" y="211.8" font-size="13px" textLength="436.8" xml:space="preserve">        .;;;;***;*JJoo&amp;&amp;QQ&amp;&amp;&amp;&amp;&amp;&amp;XX&amp;XXXXXXXXoJ*.::       </text>
-<text class="a" style="animation-delay:0.36s" x="20" y="228.0" font-size="13px" textLength="436.8" xml:space="preserve">      ::*;;;;*lllllll**lloXX&amp;&amp;X&amp;XXXXXXX&amp;XXXXXl:.:       </text>
-<text class="a" style="animation-delay:0.39s" x="20" y="244.2" font-size="13px" textLength="436.8" xml:space="preserve">     *l****;*JolJXXXXXoJll**JoXX&amp;XoJll;;*;*loJ..:       </text>
-<text class="a" style="animation-delay:0.42s" x="20" y="260.5" font-size="13px" textLength="436.8" xml:space="preserve">     lXXJ*;;ooJJXoJooJJJJlJJoX&amp;&amp;XoJl**lllJooJJ.:.       </text>
-<text class="a" style="animation-delay:0.45s" x="20" y="276.8" font-size="13px" textLength="436.8" xml:space="preserve">    .JXJJ**JoJloJl***;:;l**lX&amp;Q&amp;&amp;XJ***;**llJoo::        </text>
-<text class="a" style="animation-delay:0.48s" x="20" y="293.0" font-size="13px" textLength="436.8" xml:space="preserve">    :JXXoJlolJooooooollllllJXQQQQ&amp;oJll*llJJooo.         </text>
-<text class="a" style="animation-delay:0.51s" x="20" y="309.2" font-size="13px" textLength="436.8" xml:space="preserve">   :lJo&amp;JJJJJo&amp;&amp;&amp;&amp;XXooooooX&amp;&amp;QQQQ&amp;oJll*llJJooo.         </text>
-<text class="a" style="animation-delay:0.54s" x="20" y="325.5" font-size="13px" textLength="436.8" xml:space="preserve">  ;llll&amp;ollXXQQQQQQ&amp;&amp;&amp;&amp;X&amp;X&amp;&amp;QQQQQ&amp;&amp;&amp;XXooooXXX&amp;.         </text>
-<text class="a" style="animation-delay:0.57s" x="20" y="341.8" font-size="13px" textLength="436.8" xml:space="preserve"> .*llllJJo&amp;&amp;QQ@Q@Q&amp;&amp;&amp;&amp;XXooX&amp;&amp;QQQQ&amp;&amp;ooXXX&amp;&amp;&amp;QQQ;         </text>
-<text class="a" style="animation-delay:0.60s" x="20" y="358.0" font-size="13px" textLength="436.8" xml:space="preserve"> ;lll**oJJ&amp;&amp;QQQQ&amp;&amp;&amp;&amp;XooJJo&amp;&amp;QQQ&amp;&amp;&amp;&amp;XJlooX&amp;&amp;&amp;QQ;         </text>
-<text class="a" style="animation-delay:0.63s" x="20" y="374.2" font-size="13px" textLength="436.8" xml:space="preserve">;*l***;oJ:JQQQQ&amp;&amp;&amp;XooJloXXXJoXXooJloJlJJoXXX&amp;Xl.        </text>
-<text class="a" style="animation-delay:0.66s" x="20" y="390.5" font-size="13px" textLength="436.8" xml:space="preserve">*lll*:.:;*;Q&amp;&amp;&amp;&amp;&amp;XoollX&amp;&amp;&amp;&amp;XXJJJJJXoJllJJooXX*;*        </text>
-<text class="a" style="animation-delay:0.69s" x="20" y="406.8" font-size="13px" textLength="436.8" xml:space="preserve">ll**::.:;*:JQ&amp;&amp;&amp;&amp;XXJ**lJXoJJJoJJJJooJl*lJJool:;l:       </text>
-<text class="a" style="animation-delay:0.72s" x="20" y="423.0" font-size="13px" textLength="436.8" xml:space="preserve">:ll;::..;*;.J&amp;&amp;&amp;&amp;XXJJJJJJoXXXXooool;;;*lJool..;*;       </text>
-<text class="a" style="animation-delay:0.75s" x="20" y="439.2" font-size="13px" textLength="436.8" xml:space="preserve">ll*:;*::;;;:.*XX&amp;XXXXXXXXXooJJJooJoJoJlJoJ*.:.:*ll:     </text>
-<text class="a" style="animation-delay:0.78s" x="20" y="455.5" font-size="13px" textLength="436.8" xml:space="preserve">ll;:*;::;:;:..;oXXXX&amp;XXXXXoJJJlllJJooXoJl;..::.:*l*;    </text>
-<text class="a" style="animation-delay:0.81s" x="20" y="471.8" font-size="13px" textLength="436.8" xml:space="preserve">l;:::::::::.:..JooXXX&amp;&amp;&amp;XXXoJJJJJooXXol;....:.:::;l*JJoJ</text>
-<text class="a" style="animation-delay:0.84s" x="20" y="488.0" font-size="13px" textLength="436.8" xml:space="preserve">;;;::....::....*JJJJoo&amp;&amp;&amp;X&amp;XXXXXXXXXJ*..........::;**lJJ</text>
-<text class="a" style="animation-delay:0.87s" x="20" y="504.2" font-size="13px" textLength="436.8" xml:space="preserve">*;::::::.......*lJooJJJoXXXXooooXoJl*:.............:;;;;</text>
-<text class="a" style="animation-delay:0.90s" x="20" y="520.5" font-size="13px" textLength="436.8" xml:space="preserve">**:;:::...:....;loJooooJJJlJJJJlll**:..........:.::::::;</text>
-<text class="a" style="animation-delay:0.93s" x="20" y="536.8" font-size="13px" textLength="436.8" xml:space="preserve">:......:..;;:.::lJooooooJJJJlllllll;:......:..:..::..:::</text>
-<text class="a" style="animation-delay:0.96s" x="20" y="553.0" font-size="13px" textLength="436.8" xml:space="preserve">::;;;::::;*;;:.:*looooooooJJJJJJll;::....:......:.:;::::</text>
-<text class="a" style="animation-delay:0.99s" x="20" y="569.2" font-size="13px" textLength="436.8" xml:space="preserve">**;*;;.:;;**;:::**lJooXooooJooJJl*;;:..:....:....::::;;:</text>
-<text class="a" style="animation-delay:1.02s" x="20" y="585.5" font-size="13px" textLength="436.8" xml:space="preserve">;;lo&amp;ol*;***;;;:;***JJooooooooJll**;:..:..::.:.:...:;:;:</text>
-<text class="a" style="animation-delay:1.05s" x="20" y="601.8" font-size="13px" textLength="436.8" xml:space="preserve">oX&amp;QQoJl:*;;;*;;;***llJoJoooooJll*;;....:.::.;:...:::;:;</text>
-<text class="a" style="animation-delay:1.08s" x="20" y="618.0" font-size="13px" textLength="436.8" xml:space="preserve">oX&amp;QQXll::;;;;;;;:;*l*lJJJoooJJJlJ*:::...:.:::*:....:;;;</text>
-<text class="a" style="animation-delay:1.11s" x="20" y="634.2" font-size="13px" textLength="436.8" xml:space="preserve">oo&amp;Q&amp;oll;:;:;;:;:;::*lllJJJJJJJJJXl;:::..::::::;.:...;:;</text>
-<text class="a" style="animation-delay:1.14s" x="20" y="650.5" font-size="13px" textLength="436.8" xml:space="preserve">Jo&amp;&amp;XJJJl::::::::::::;*llllJJJJJo&amp;&amp;*;:::..::::;;;..:..:;</text>
-<text class="a" style="animation-delay:1.17s" x="20" y="666.8" font-size="13px" textLength="436.8" xml:space="preserve">oX&amp;&amp;oJJll*.:.::::::::::*lllllllJXXll*lllll*lll;*l;:.::.:</text>
-<text class="a" style="animation-delay:1.20s" x="20" y="683.0" font-size="13px" textLength="436.8" xml:space="preserve">oXX&amp;oJlJJJ;.::.:::::;lJoXXXl**oXJJllJooooooJJJJ**l;:..:.</text>
-<text class="a" style="animation-delay:1.23s" x="20" y="699.2" font-size="13px" textLength="436.8" xml:space="preserve">oXX&amp;oJlJJJ;.::.:::::;lJoXXXl**oXJJllJooooooJJJJ**l;:..:.</text>
-<text class="a" style="animation-delay:1.26s" x="20" y="715.5" font-size="13px" textLength="436.8" xml:space="preserve">XXXXoJJJJJJoJllJoJJJJoooJoXJoJoJJJJoXooXoooooJooJ*;*;;:.</text>
-<text class="a" style="animation-delay:1.29s" x="20" y="731.8" font-size="13px" textLength="436.8" xml:space="preserve">oXoooJJJJJoooJJJJoJJJJJJoJJJJJJJlJoooooooXoooooooJl;;;.:</text>
-<text class="a" style="animation-delay:1.32s" x="20" y="748.0" font-size="13px" textLength="436.8" xml:space="preserve">ooooJoJJJoooJJJJJJJJlJJJJJJlJJJJJooooooooooJooooJJJl;::.</text>
-<text class="a" style="animation-delay:1.35s" x="20" y="764.2" font-size="13px" textLength="436.8" xml:space="preserve">oJoJJJJoJoJoJJJlJJJllJJlJJJJJJJJoJooJoJoJoJoJoJJoJJl*:::</text>
-<text class="a" style="animation-delay:1.38s" x="20" y="780.5" font-size="13px" textLength="436.8" xml:space="preserve">JJJJlJJJJJJJJJJJlJJJllllJJJJJJJJJJJJJJJJJJJJJJJJJJJl*;:;</text>
-<text class="a" style="animation-delay:1.41s" x="20" y="796.8" font-size="13px" textLength="436.8" xml:space="preserve">JJllJllJJJJJllllJllllllllJJJJlJJJJJJJJJJJJJlJJJJJJlJl;:;</text>
-<text class="a" style="animation-delay:1.44s" x="20" y="813.0" font-size="13px" textLength="436.8" xml:space="preserve">llllllllllllllllllllllllllllJllllllllllllJlllllllll*::</text>
-<text class="a" style="animation-delay:1.47s" x="20" y="829.2" font-size="13px" textLength="436.8" xml:space="preserve">llllllllllllllllllllllllllllllllllllllllllllllllllll**;:</text>
-<text class="a" style="animation-delay:1.50s" x="20" y="845.5" font-size="13px" textLength="436.8" xml:space="preserve">****l*l*l*l***l**l*l***l***l**l*l*l*llllll*l*ll*ll*l***:</text>
-<text class="a" style="animation-delay:1.53s" x="20" y="861.8" font-size="13px" textLength="436.8" xml:space="preserve">*************************l*****************************;</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1026" height="595" viewBox="0 0 1026 595" font-family="Consolas, 'DejaVu Sans Mono', Menlo, 'Courier New', monospace" role="img" aria-label="Aishwarya Srivastav: profile card">
+<style>text{white-space:pre}.text{fill:#24292f}.key{fill:#953800}.value{fill:#0a3069}.dots{fill:#8c959f}</style>
+<rect width="1026" height="595" rx="15" fill="#f6f8fa"/>
+<g font-size="9.2" fill="#24292f">
+<text x="214.5" y="62.9" xml:space="preserve" textLength="66.0">%%%%%#######</text>
+<text x="192.5" y="73.9" xml:space="preserve" textLength="126.5">%%%%%@@@%%%%@%%%%%%%%%#</text>
+<text x="176.0" y="84.9" xml:space="preserve" textLength="154.0">###%%%@@@@@@@%%%%#*#%%@@@@@%</text>
+<text x="159.5" y="95.9" xml:space="preserve" textLength="181.5">%####%%%%%@@@@@@@@@%#*#%%@@@@@@@%</text>
+<text x="154.0" y="106.9" xml:space="preserve" textLength="192.5">%###%%%%%%%@@@@@@@%%%#+*#%%@@@@@@@%</text>
+<text x="148.5" y="117.9" xml:space="preserve" textLength="203.5">#####%%%%%%%@@@@@%%##*=-=+*##%%@@@@@@</text>
+<text x="137.5" y="128.9" xml:space="preserve" textLength="225.5">#########%%%@@@@@%##*++=-----=+**#%@@@@@#</text>
+<text x="132.0" y="139.9" xml:space="preserve" textLength="231.0">#####%%%%%%%@@@@%#*+==------------+#%@@@@%</text>
+<text x="126.5" y="150.9" xml:space="preserve" textLength="242.0">###%%%%%#%%@@@@%#*+=--------===-----+*#%@@@%</text>
+<text x="121.0" y="161.9" xml:space="preserve" textLength="247.5">##%%%%%%%%%@@@%%#+=-------==========-=+*#%@@@</text>
+<text x="115.5" y="172.9" xml:space="preserve" textLength="258.5">%#%%%%%@%%%@%%##*=-::::-----=========--=++#@@@%</text>
+<text x="115.5" y="183.9" xml:space="preserve" textLength="258.5">#%%%%%@%%%%%#####*+-:::-------=----:::--==*@@@%</text>
+<text x="110.0" y="194.9" xml:space="preserve" textLength="264.0">%%%%%@%@%##%%####%%%@%%#*+=----=====+++**+=+%@@%</text>
+<text x="110.0" y="205.9" xml:space="preserve" textLength="258.5">%%%%%%@@#*##+-:::::-+*##%#*=---=*#%%@@%%##*+%@@</text>
+<text x="104.5" y="216.9" xml:space="preserve" textLength="264.0">@#**#%@@#**#*-+*++++++***+--::--=*##*+=--::+*%@@</text>
+<text x="104.5" y="227.9" xml:space="preserve" textLength="258.5">%#+##%%%*###=*%@@%@@@@%@@%=:::::+#%%%###**+:-%@</text>
+<text x="99.0" y="238.9" xml:space="preserve" textLength="264.0">%%#++*##*###+++++==*##*#@%*=:::::*%@@@@@@#@%=-%%</text>
+<text x="99.0" y="249.9" xml:space="preserve" textLength="264.0">%##*=*#####*==----=++++++--::::::=******+===--##</text>
+<text x="93.5" y="260.9" xml:space="preserve" textLength="269.5">%%##%+*#%#**=::::::::::::::::::::::::--====--::++</text>
+<text x="88.0" y="271.9" xml:space="preserve" textLength="269.5">%%##%%*##*++-:::::::::--=+*=---::::-===-::::::::=</text>
+<text x="93.5" y="282.9" xml:space="preserve" textLength="264.0">%#%%%#***==::::-----=+*#%#=-:::::::=##+=-::::::-</text>
+<text x="88.0" y="293.9" xml:space="preserve" textLength="269.5">%%%%%%*#@%=--------==*%%*+--+=-:======#*+=---:::*</text>
+<text x="88.0" y="304.9" xml:space="preserve" textLength="275.0">%##%@@%%@@+:-=----=+#%#=::=##*+++*#%#+*#*==---:+%*</text>
+<text x="88.0" y="315.9" xml:space="preserve" textLength="280.5">##%%@@@@%@#-------=*@%=:::::-=+++==:::=**+==--=%@%*</text>
+<text x="82.5" y="326.9" xml:space="preserve" textLength="286.0">##%%@@@@@%@@*---:::=*@@@@*+**###*###***#%#+==-=%@@%*</text>
+<text x="82.5" y="337.9" xml:space="preserve" textLength="286.0">##%@@@@@@%%@@*-::::-+#++#*++=*+=+==+=%@@@%=::-%@@@##</text>
+<text x="77.0" y="348.9" xml:space="preserve" textLength="302.5">*##%@%%@@@%%@@@%=:::-==--::-=++***+=+=---=+-:+%@@@@%##*</text>
+<text x="77.0" y="359.9" xml:space="preserve" textLength="313.5">##%%@%%@@%%%@@@@%+----::----=+****###+-:::-+#@@@@@@@%###+</text>
+<text x="77.0" y="370.9" xml:space="preserve" textLength="352.0">%#%@@@@@@@@%@@@@@*++=-::::---=++**++=--::=#@@@@@@@@@@%%##*++**##</text>
+<text x="71.5" y="381.9" xml:space="preserve" textLength="357.5">*%%%@@@@@@@@@@@@@@#++***=:::::::---:::::-*@@@@@@@@@@@@@@%##**++##</text>
+<text x="77.0" y="392.9" xml:space="preserve" textLength="357.5">#%@@@@@@@@@@@@@@@%*==+*#*+-::::::::::-+#%@@@@@@@@@@@@@@@@%%%%##%#</text>
+<text x="71.5" y="403.9" xml:space="preserve" textLength="379.5">+*%%%%@@@@@@@@@@@@%*==-==++**+++++=++**#%@@@@@@@@@@@@@@@@@@@@@%%%%%%%</text>
+<text x="38.5" y="414.9" xml:space="preserve" textLength="434.5">+*#**#%%@@@@@@@@@@@@@@@@%*=-----==++*******+*#@@@@@@@@@@@@@@@@@@@@@@@%%%%##%%%%</text>
+<text x="33.0" y="425.9" xml:space="preserve" textLength="451.0">+**##%@@@@@@@@@@@@@%%%@@@%#+-:::---=========+#%@@@@@@@@@@@@@@@@@@@@@@@@@%####**%%#</text>
+<text x="33.0" y="436.9" xml:space="preserve" textLength="473.0">*##%@@@@%%%#%%@@@@%%%%%@@@%#*=::::-====----=*%@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%%###**#</text>
+<text x="22.0" y="447.9" xml:space="preserve" textLength="484.0">###%%@@@@#%%%%%#%@@%%##%%@@@%##*=-::--==----=+#%%@@@@@@@@@@@@@@@@@@@@%%%%%%%%%%@%##*====</text>
+<text x="22.0" y="458.9" xml:space="preserve" textLength="484.0">%%%%@@@%#%%%%*-:=*#%%#%%%%%%%###*=-::------=+*##%@@@@@@@@@@@@@@@@@@%%%@%%%%%%%%%%%#*+==-</text>
+<text x="22.0" y="469.9" xml:space="preserve" textLength="484.0">=++*%%%#-=+=-:::=+*@%%%%%%%%%%#**++-----::-=+**#%@@@@@@@@@@@%@@@@@@%%%%%@@@@%%%%%%%#+=--</text>
+<text x="22.0" y="480.9" xml:space="preserve" textLength="484.0">::-:-==-:-==-:::=+*@%%%%%%%%%%%#+++==---::-===+#%@@@@@@@@@@@%%@@@@@@%%%%@@@@@@@%%%%#+---</text>
+<text x="22.0" y="491.9" xml:space="preserve" textLength="484.0">:--:::-::-==-:::=++%@%%%%%%%%%%%%*====-------==*%@@@@@@@@@@@%%@@@@@@%%%%%%@@@@@@@%%#*+=-</text>
+<text x="22.0" y="502.9" xml:space="preserve" textLength="484.0">:--::::::-==-::-=++*@@%%%%%%%%%%%%#+====-----=-:+%%@@@@@@@@@@%%@@@@@@%%%%%%@@@@@@@@%#*+=</text>
+<text x="22.0" y="513.9" xml:space="preserve" textLength="484.0">:-:::--::----::-====#@@%%%%%%%%%%%@%#++======--=*****#######%%*#@@@@@@@%%@%%@@@@@@@@@%%#</text>
+<text x="22.0" y="524.9" xml:space="preserve" textLength="484.0">:-:::--::---:::-=====%@@%%%%%%%%%#*+---=++++--=++++==--=====+##*#@@@@@@@@%%@%@@@@@@@@%#*</text>
+<text x="22.0" y="535.9" xml:space="preserve" textLength="484.0">:-::--:::--::::--===-=%@@%%%%%##+=-::-:-**+--==++=--------==-=##*#%%@@@@@@%%@@@@@@@@@%%%</text>
 </g>
-<text class="l" style="animation-delay:0.30s" x="480.8" y="37.5" textLength="576.0" xml:space="preserve"><tspan fill="#e6edf3">aishwarya@github </tspan><tspan fill="#586069">-------------------------------------------</tspan></text>
-<text class="l" style="animation-delay:0.39s" x="480.8" y="57.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">Education</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ..... </tspan><tspan fill="#a5d6ff">BCA (Data Science &amp; Machine Learning), 2025</tspan></text>
-<text class="l" style="animation-delay:0.48s" x="480.8" y="77.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">Institute</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ... </tspan><tspan fill="#a5d6ff">Banarsidas Chandiwala Institute, GGSIPU Delhi</tspan></text>
-<text class="l" style="animation-delay:0.57s" x="480.8" y="97.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">CGPA</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ............................................ </tspan><tspan fill="#a5d6ff">8.72 / 10</tspan></text>
-<text class="l" style="animation-delay:0.66s" x="480.8" y="117.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">Focus</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ......... </tspan><tspan fill="#a5d6ff">Machine Learning | Deep Learning | Research</tspan></text>
-<text class="l" style="animation-delay:0.75s" x="480.8" y="157.5" textLength="576.0" xml:space="preserve"><tspan fill="#e6edf3">- Research </tspan><tspan fill="#586069">-------------------------------------------------</tspan></text>
-<text class="l" style="animation-delay:0.84s" x="480.8" y="177.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">Book chapter</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ... </tspan><tspan fill="#a5d6ff">Multimodal Speech Emotion Recognition (DL)</tspan></text>
-<text class="l" style="animation-delay:0.93s" x="480.8" y="197.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">Article</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ......... </tspan><tspan fill="#a5d6ff">Snowflake in Data Science (GeeksforGeeks)</tspan></text>
-<text class="l" style="animation-delay:1.02s" x="480.8" y="217.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">ORCID</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ................................. </tspan><tspan fill="#a5d6ff">0009-0009-8546-2944</tspan></text>
-<text class="l" style="animation-delay:1.11s" x="480.8" y="257.5" textLength="576.0" xml:space="preserve"><tspan fill="#e6edf3">- Projects </tspan><tspan fill="#586069">-------------------------------------------------</tspan></text>
-<text class="l" style="animation-delay:1.20s" x="480.8" y="277.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">AdaptiveSpread</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> .... </tspan><tspan fill="#a5d6ff">Adaptive spread pricing engine for RFQs</tspan></text>
-<text class="l" style="animation-delay:1.29s" x="480.8" y="297.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">DATA-WORK-AUTOMATION</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ..... </tspan><tspan fill="#a5d6ff">Automated cleaning, EDA &amp; charts</tspan></text>
-<text class="l" style="animation-delay:1.38s" x="480.8" y="337.5" textLength="576.0" xml:space="preserve"><tspan fill="#e6edf3">- Skills </tspan><tspan fill="#586069">---------------------------------------------------</tspan></text>
-<text class="l" style="animation-delay:1.47s" x="480.8" y="357.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">Languages</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ..................................... </tspan><tspan fill="#a5d6ff">Python, SQL</tspan></text>
-<text class="l" style="animation-delay:1.56s" x="480.8" y="377.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">ML</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ............................ </tspan><tspan fill="#a5d6ff">Deep Learning, RAG, PySpark</tspan></text>
-<text class="l" style="animation-delay:1.65s" x="480.8" y="397.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">Explainability</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ................................. </tspan><tspan fill="#a5d6ff">SHAP, DiCE</tspan></text>
-<text class="l" style="animation-delay:1.74s" x="480.8" y="417.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">MLOps</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ................... </tspan><tspan fill="#a5d6ff">MLflow, DVC, Docker, Evidently AI</tspan></text>
-<text class="l" style="animation-delay:1.83s" x="480.8" y="437.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">Visualisation</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ..................................... </tspan><tspan fill="#a5d6ff">Tableau</tspan></text>
-<text class="l" style="animation-delay:1.92s" x="480.8" y="477.5" textLength="576.0" xml:space="preserve"><tspan fill="#e6edf3">- Certifications &amp; Awards </tspan><tspan fill="#586069">----------------------------------</tspan></text>
-<text class="l" style="animation-delay:2.01s" x="480.8" y="497.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">Imperial College London</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ..... </tspan><tspan fill="#a5d6ff">Mathematics for ML (Coursera)</tspan></text>
-<text class="l" style="animation-delay:2.10s" x="480.8" y="517.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">HackerRank</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ......................... </tspan><tspan fill="#a5d6ff">SQL, 5-Star Gold Badge</tspan></text>
-<text class="l" style="animation-delay:2.19s" x="480.8" y="537.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">GeeksforGeeks</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ................. </tspan><tspan fill="#a5d6ff">Data Science Specialization</tspan></text>
-<text class="l" style="animation-delay:2.28s" x="480.8" y="557.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">IBM SkillBuild</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> .......................... </tspan><tspan fill="#a5d6ff">Analytics Program</tspan></text>
-<text class="l" style="animation-delay:2.37s" x="480.8" y="577.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">Udemy</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ......................... </tspan><tspan fill="#a5d6ff">YOLOv9/v10 Object Detection</tspan></text>
-<text class="l" style="animation-delay:2.46s" x="480.8" y="597.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">Kaggle</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ................... </tspan><tspan fill="#a5d6ff">Notebooks &amp; datasets contributor</tspan></text>
-<text class="l" style="animation-delay:2.55s" x="480.8" y="617.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">Award</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ................. </tspan><tspan fill="#a5d6ff">1st prize, creative content writing</tspan></text>
-<text class="l" style="animation-delay:2.64s" x="480.8" y="657.5" textLength="576.0" xml:space="preserve"><tspan fill="#e6edf3">- Contact </tspan><tspan fill="#586069">--------------------------------------------------</tspan></text>
-<text class="l" style="animation-delay:2.73s" x="480.8" y="677.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">Email</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ...................... </tspan><tspan fill="#a5d6ff">srivastavaishwarya93@gmail.com</tspan></text>
-<text class="l" style="animation-delay:2.82s" x="480.8" y="697.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">LinkedIn</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ................. </tspan><tspan fill="#a5d6ff">in/aishwarya-srivastav-5a63222b1</tspan></text>
-<text class="l" style="animation-delay:2.91s" x="480.8" y="717.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">Location</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ................................. </tspan><tspan fill="#a5d6ff">New Delhi, India</tspan></text>
-<text class="l" style="animation-delay:3.00s" x="480.8" y="757.5" textLength="576.0" xml:space="preserve"><tspan fill="#e6edf3">- GitHub Stats </tspan><tspan fill="#586069">---------------------------------------------</tspan></text>
-<text class="l" style="animation-delay:3.09s" x="480.8" y="777.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">Repos</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> .................................................. </tspan><tspan fill="#a5d6ff">33</tspan></text>
-<text class="l" style="animation-delay:3.18s" x="480.8" y="797.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">Commits</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> ............................................... </tspan><tspan fill="#a5d6ff">166</tspan></text>
-<text class="l" style="animation-delay:3.27s" x="480.8" y="817.5" textLength="576.0" xml:space="preserve"><tspan fill="#ffa657">Lines of Code</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#586069"> .................... </tspan><tspan fill="#a5d6ff">47,657 (+49,159, -1,502)</tspan></text>
-<text class="l" style="animation-delay:3.36s" x="480.8" y="857.5" textLength="192.0" xml:space="preserve"><tspan fill="#ffa657">aishwarya@github</tspan><tspan fill="#e6edf3">:~$ </tspan></text>
-<g class="l" style="animation-delay:3.36s"><rect class="cur" x="672.8" y="843.5" width="9.6" height="18" fill="#e6edf3"/></g>
-</svg>
+<g font-size="13">
+<text x="536.0" y="35.0" xml:space="preserve" textLength="468.0"><tspan class="text">aishwarya@srivastav </tspan><tspan class="text">────────────────────────────────────────</tspan></text>
+<text x="536.0" y="54.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">Role</tspan><tspan class="text">:</tspan><tspan class="dots"> ................ </tspan><tspan class="value">ML · Deep Learning · Explainable AI</tspan></text>
+<text x="536.0" y="73.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">Degree</tspan><tspan class="text">:</tspan><tspan class="dots"> ...... </tspan><tspan class="value">BCA, Data Science &amp; Machine Learning (2025)</tspan></text>
+<text x="536.0" y="92.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">College</tspan><tspan class="text">:</tspan><tspan class="dots"> ....... </tspan><tspan class="value">Banarsidas Chandiwala Inst. of Technology</tspan></text>
+<text x="536.0" y="111.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">University</tspan><tspan class="text">:</tspan><tspan class="dots"> .... </tspan><tspan class="value">Guru Gobind Singh Indraprastha University</tspan></text>
+<text x="536.0" y="130.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">Location</tspan><tspan class="text">:</tspan><tspan class="dots"> ............................... </tspan><tspan class="value">New Delhi, India</tspan></text>
+<text x="536.0" y="168.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">Languages.Code</tspan><tspan class="text">:</tspan><tspan class="dots"> .............................. </tspan><tspan class="value">Python, SQL</tspan></text>
+<text x="536.0" y="187.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">Languages.Real</tspan><tspan class="text">:</tspan><tspan class="dots"> ........................... </tspan><tspan class="value">Hindi, English</tspan></text>
+<text x="536.0" y="206.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">Stack.ML</tspan><tspan class="text">:</tspan><tspan class="dots"> ........ </tspan><tspan class="value">PyTorch, scikit-learn, Pandas, LightGBM</tspan></text>
+<text x="536.0" y="225.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">Stack.XAI</tspan><tspan class="text">:</tspan><tspan class="dots"> .... </tspan><tspan class="value">SHAP, DiCE, Evidently AI, RAG, MLflow, DVC</tspan></text>
+<text x="536.0" y="244.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">Stack.Deploy</tspan><tspan class="text">:</tspan><tspan class="dots"> ... </tspan><tspan class="value">Docker, FastAPI, Streamlit, Tableau, Git</tspan></text>
+<text x="536.0" y="263.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">Daily.Drivers</tspan><tspan class="text">:</tspan><tspan class="dots"> ........... </tspan><tspan class="value">Claude, VS Code, Jupyter, Colab</tspan></text>
+<text x="536.0" y="301.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">Research.Focus</tspan><tspan class="text">:</tspan><tspan class="dots"> ..... </tspan><tspan class="value">Explainable AI for regulated domains</tspan></text>
+<text x="536.0" y="320.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">Research.Also</tspan><tspan class="text">:</tspan><tspan class="dots"> ... </tspan><tspan class="value">RAG pipelines, gaps in ML / LLM systems</tspan></text>
+<text x="536.0" y="339.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">Project</tspan><tspan class="text">:</tspan><tspan class="dots"> ............... </tspan><tspan class="value">Explainable Loan Decision Copilot</tspan></text>
+<text x="536.0" y="358.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">Publication</tspan><tspan class="text">:</tspan><tspan class="dots"> ... </tspan><tspan class="value">Snowflake in Data Science (GeeksforGeeks)</tspan></text>
+<text x="536.0" y="377.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">Book.Chapter</tspan><tspan class="text">:</tspan><tspan class="dots"> ... </tspan><tspan class="value">Speech Emotion Recognition (in progress)</tspan></text>
+<text x="536.0" y="396.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">Badge</tspan><tspan class="text">:</tspan><tspan class="dots"> ....................... </tspan><tspan class="value">HackerRank SQL, 5-Star Gold</tspan></text>
+<text x="536.0" y="434.0" xml:space="preserve" textLength="468.0"><tspan class="text">- Contact ──────────────────────────────────────────────────</tspan></text>
+<text x="536.0" y="453.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">Email</tspan><tspan class="text">:</tspan><tspan class="dots"> .................... </tspan><tspan class="value">srivastavaishwarya93@gmail.com</tspan></text>
+<text x="536.0" y="472.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">LinkedIn</tspan><tspan class="text">:</tspan><tspan class="dots"> ............................ </tspan><tspan class="value">aishwarya-srivastav</tspan></text>
+<text x="536.0" y="491.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">GitHub</tspan><tspan class="text">:</tspan><tspan class="dots"> ............................. </tspan><tspan class="value">Aishwaryasrivastav31</tspan></text>
+<text x="536.0" y="529.0" xml:space="preserve" textLength="468.0"><tspan class="text">- GitHub Stats ─────────────────────────────────────────────</tspan></text>
+<text x="536.0" y="548.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">Repos</tspan><tspan class="text">:</tspan><tspan class="dots"> .................. </tspan><tspan class="value">-</tspan><tspan class="text"> | </tspan><tspan class="key">Stars</tspan><tspan class="text">:</tspan><tspan class="dots"> ................... </tspan><tspan class="value">-</tspan></text>
+<text x="536.0" y="567.0" xml:space="preserve" textLength="468.0"><tspan class="text">. </tspan><tspan class="key">Commits</tspan><tspan class="text">:</tspan><tspan class="dots"> ................ </tspan><tspan class="value">-</tspan><tspan class="text"> | </tspan><tspan class="key">Followers</tspan><tspan class="text">:</tspan><tspan class="dots"> ............... </tspan><tspan class="value">-</tspan></text>
+</g></svg>
