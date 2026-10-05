@@ -57,6 +57,7 @@ THEMES = {
 # whichever monospace font the viewer's machine ends up using.
 PAD = 22
 ART_FS, ART_CW, ART_LH = 9.2, 5.5, 11.0
+LINE_DELAY = 0.045                 # seconds between portrait lines appearing
 FS, CW, LH = 13, 7.8, 19
 WIDTH_CH = 60                      # characters per info line
 GAP = 30
@@ -152,9 +153,12 @@ def render(theme, art, lines):
         f'aria-label="Aishwarya Srivastav: profile card">',
         "<style>text{white-space:pre}"
         + "".join(f".{k}{{fill:{c[k]}}}" for k in ("text", "key", "value", "dots"))
+        + "@keyframes print{from{opacity:0}to{opacity:1}}"
+        ".art text{animation:print .12s ease-out both}"
+        "@media (prefers-reduced-motion:reduce){.art text{animation:none}}"
         + "</style>",
         f'<rect width="{W}" height="{H}" rx="15" fill="{c["bg"]}"/>',
-        f'<g font-size="{ART_FS}" fill="{c["art"]}">',
+        f'<g class="art" font-size="{ART_FS}" fill="{c["art"]}">',
     ]
     y0 = (H - art_h) / 2 + ART_FS * 0.8
     for i, line in enumerate(art):
@@ -163,7 +167,8 @@ def render(theme, art, lines):
             continue
         x = PAD + (len(line) - len(body)) * ART_CW
         out.append(f'<text x="{x:.1f}" y="{y0 + i * ART_LH:.1f}" xml:space="preserve" '
-                   f'textLength="{len(body) * ART_CW:.1f}">{escape(body)}</text>')
+                   f'textLength="{len(body) * ART_CW:.1f}" '
+                   f'style="animation-delay:{0.3 + i * LINE_DELAY:.2f}s">{escape(body)}</text>')
     out.append("</g>")
     out.append(f'<g font-size="{FS}">')
     x = PAD + art_w + GAP
