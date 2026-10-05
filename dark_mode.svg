@@ -1,51 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1026" height="595" viewBox="0 0 1026 595" font-family="Consolas, 'DejaVu Sans Mono', Menlo, 'Courier New', monospace" role="img" aria-label="Aishwarya Srivastav: profile card">
-<style>text{white-space:pre}.text{fill:#c9d1d9}.key{fill:#ffa657}.value{fill:#a5d6ff}.dots{fill:#616e7f}</style>
+<style>text{white-space:pre}.text{fill:#c9d1d9}.key{fill:#ffa657}.value{fill:#a5d6ff}.dots{fill:#616e7f}@keyframes print{from{opacity:0}to{opacity:1}}.art text{animation:print .12s ease-out both}@media (prefers-reduced-motion:reduce){.art text{animation:none}}</style>
 <rect width="1026" height="595" rx="15" fill="#161b22"/>
-<g font-size="9.2" fill="#c9d1d9">
-<text x="214.5" y="62.9" xml:space="preserve" textLength="66.0">--------====</text>
-<text x="192.5" y="73.9" xml:space="preserve" textLength="126.5">-----::::--::---------=</text>
-<text x="176.0" y="84.9" xml:space="preserve" textLength="154.0">===---:::::::--:-=+--::::::-</text>
-<text x="159.5" y="95.9" xml:space="preserve" textLength="181.5">-====----::::::::::-=*=--:::::::-</text>
-<text x="154.0" y="106.9" xml:space="preserve" textLength="192.5">-===-------::::::::--=*+=--:::::::-</text>
-<text x="148.5" y="117.9" xml:space="preserve" textLength="203.5">====--------:::::--==+#@%#+==-:::::::</text>
-<text x="137.5" y="128.9" xml:space="preserve" textLength="225.5">==+===------:::::-==+*#%%%@%%#*++=-:::::=</text>
-<text x="132.0" y="139.9" xml:space="preserve" textLength="231.0">=====-:----:::::-=+*#%%%%%%%%@@%%%*=-:::::</text>
-<text x="126.5" y="150.9" xml:space="preserve" textLength="242.0">===--------::::-=+*%%%%%%%%%%%%%%%@%*+=-:::-</text>
-<text x="121.0" y="161.9" xml:space="preserve" textLength="247.5">==---------:::--=*#%@%%%%%%%%#####%%%##*=::::</text>
-<text x="115.5" y="172.9" xml:space="preserve" textLength="258.5">-=--:-::---::-==+#@@@@@%%%%%%#%###%#%%%##*=:::-</text>
-<text x="115.5" y="183.9" xml:space="preserve" textLength="258.5">=-:-::::----=====+#%@@@@@@%%%%%%%%@@@@@%%#+:::-</text>
-<text x="110.0" y="194.9" xml:space="preserve" textLength="264.0">----:::::==---===--::--=+*%%%%%%%%%#***++*#*:::-</text>
-<text x="110.0" y="205.9" xml:space="preserve" textLength="258.5">------::=+=-*@@@@@@%*+=--=+#%%%#+=-:::---=+*-::</text>
-<text x="104.5" y="216.9" xml:space="preserve" textLength="264.0">:-++=-::-++-+%*+*#*****++*%%@@@%#+==+*#%@@@#*:::</text>
-<text x="104.5" y="227.9" xml:space="preserve" textLength="258.5">:=*==-:-+===#*-::-::::-::-%@@@@@#=---===+*#@%-:</text>
-<text x="99.0" y="238.9" xml:space="preserve" textLength="264.0">:-=**+==+===*****##+==+=:-+#@@@@@+-::::::=:-#%--</text>
-<text x="99.0" y="249.9" xml:space="preserve" textLength="264.0">:-=+#+=====+#%%%%%###***#%@@@@@@@#*+++++*##%%@==</text>
-<text x="93.5" y="260.9" xml:space="preserve" textLength="269.5">--==-#*=-=+*#@@@@@@@@@@@@@@@@@@@@@@@@@%%###%@@@**</text>
-<text x="88.0" y="271.9" xml:space="preserve" textLength="269.5">:-==--+==+**%@@@@@@@@@@%#*+#%@@@@@@@%#%@@@@@@@@@%</text>
-<text x="93.5" y="282.9" xml:space="preserve" textLength="264.0">-----=++*#%@@@@@@%%%##+=-=%@@@@@@@@#==*#%@@@@@@%</text>
-<text x="88.0" y="293.9" xml:space="preserve" textLength="269.5">------*=:-%%%%%%%%%%#+-:+*%%*#%@%###%#=+*#%%@@@@*</text>
-<text x="88.0" y="304.9" xml:space="preserve" textLength="275.0">----::--::#@%%%%%%#*=-=#@@#==+***+=-=#+=+#%%%@@#:+</text>
-<text x="88.0" y="315.9" xml:space="preserve" textLength="280.5">==-:::::-:-@@%%%%%#+:-#@@@@@%%#**#%@@@%++*#%%%#-:-+</text>
-<text x="82.5" y="326.9" xml:space="preserve" textLength="286.0">==--:::::-::+@@@@@@%+::::**++===+===+++=:=*#%%%-::-+</text>
-<text x="82.5" y="337.9" xml:space="preserve" textLength="286.0">==-::::::--::+%@@@@%*=**=+**#+#######::::-#@@%-:::==</text>
-<text x="77.0" y="348.9" xml:space="preserve" textLength="302.5">+==-::-:::--:::-#@@@%#%@@@@@##**++*###%@%#*%@#-:::::==+</text>
-<text x="77.0" y="359.9" xml:space="preserve" textLength="313.5">==-::-::::--::::-*%%@@@@@%%@%*++++===*@@@@%#=::::::::-==*</text>
-<text x="77.0" y="370.9" xml:space="preserve" textLength="352.0">---::::::::::::::+**#%@@@@%%%#******#%@@@#=:::::::::::-==+***+==</text>
-<text x="71.5" y="381.9" xml:space="preserve" textLength="357.5">+--:::::::::::::::=***++#@@@@@@@@%@@@@@@%+::::::::::::::-==++**==</text>
-<text x="77.0" y="392.9" xml:space="preserve" textLength="357.5">=-:::::::::::::::-+##*+=+*@@@@@@@@@@@%*=-::::::::::::::::----==-=</text>
-<text x="71.5" y="403.9" xml:space="preserve" textLength="379.5">#+--::::::::::::::-+#%%%#**+*****###**+=-:::::::::::::::::::::-------</text>
-<text x="38.5" y="414.9" xml:space="preserve" textLength="434.5">*+=+*=--:::::::::::::::::+#%@@%%%#***+++++**+=:::::::::::::::::::::::::--------</text>
-<text x="33.0" y="425.9" xml:space="preserve" textLength="451.0">*++==-::::::::::::::--::::=*%@@@%%%#########*=::::::::::::::::::::::::::--===++---</text>
-<text x="33.0" y="436.9" xml:space="preserve" textLength="473.0">+==-::::---=--::::-----:::-=+%@@@@%%%##%%%%#+-::::::::::::::::::::::::::--------=-=++=</text>
-<text x="22.0" y="447.9" xml:space="preserve" textLength="484.0">===--::::---:--=-::--==--:::-==+%@@@@%%%%%%%#*=--::::::::::::::::::::-::-----:::-==+####</text>
-<text x="22.0" y="458.9" xml:space="preserve" textLength="484.0">----:::-=----+%@#+=--=-----:-===+#%@@%%%%%@%*+=--::::::::::::::::::-:-::-::----:--=+##%%</text>
-<text x="22.0" y="469.9" xml:space="preserve" textLength="484.0">##*+-:--@%##%@@@#*+:----------+++*#%%%%@@@@%#*+=-:::::::::::-:::::::-:-::::::--:---=*%%@</text>
-<text x="22.0" y="480.9" xml:space="preserve" textLength="484.0">@@@@%##%@%%%%@@@%*+:-----------=**##%%%@@@%%##*=-:::::::::::--::::::----:::::::----=*%%@</text>
-<text x="22.0" y="491.9" xml:space="preserve" textLength="484.0">@@@@@@@@@%%%%@@@%**-:---------::-*###%%%@@%%%##+-::::::::::::-:::::::----::::::::::=+##%</text>
-<text x="22.0" y="502.9" xml:space="preserve" textLength="484.0">@@@@@@@@@%%%%@@@###+:::---------:-=*###%%%%%%#@@*--::::::::::--:::::::----:::::::::-=+*#</text>
-<text x="22.0" y="513.9" xml:space="preserve" textLength="484.0">@@@@@%%@@%%%@@@%####=:::---------:::=*####%%#%@#+++++===-===--+=:::::::-::::::::::::::-=</text>
-<text x="22.0" y="524.9" xml:space="preserve" textLength="484.0">@@@@@%@@@%%@@@@%%##%#-:::--------=+#%%%%**##%%#***##%%%%####*-=+=:::::::::::::::::::::-+</text>
-<text x="22.0" y="535.9" xml:space="preserve" textLength="484.0">@@@@@%@@@@@@@@@@%%%%%#-:::----==*#%@@@@@++#%%#####%@@@@@%%%%%#==+=--::::::::::::::::::--</text>
+<g class="art" font-size="9.2" fill="#c9d1d9">
+<text x="214.5" y="62.9" xml:space="preserve" textLength="66.0" style="animation-delay:0.30s">--------====</text>
+<text x="192.5" y="73.9" xml:space="preserve" textLength="126.5" style="animation-delay:0.34s">-----::::--::---------=</text>
+<text x="176.0" y="84.9" xml:space="preserve" textLength="154.0" style="animation-delay:0.39s">===---:::::::--:-=+--::::::-</text>
+<text x="159.5" y="95.9" xml:space="preserve" textLength="181.5" style="animation-delay:0.43s">-====----::::::::::-=*=--:::::::-</text>
+<text x="154.0" y="106.9" xml:space="preserve" textLength="192.5" style="animation-delay:0.48s">-===-------::::::::--=*+=--:::::::-</text>
+<text x="148.5" y="117.9" xml:space="preserve" textLength="203.5" style="animation-delay:0.52s">====--------:::::--==+#@%#+==-:::::::</text>
+<text x="137.5" y="128.9" xml:space="preserve" textLength="225.5" style="animation-delay:0.57s">==+===------:::::-==+*#%%%@%%#*++=-:::::=</text>
+<text x="132.0" y="139.9" xml:space="preserve" textLength="231.0" style="animation-delay:0.61s">=====-:----:::::-=+*#%%%%%%%%@@%%%*=-:::::</text>
+<text x="126.5" y="150.9" xml:space="preserve" textLength="242.0" style="animation-delay:0.66s">===--------::::-=+*%%%%%%%%%%%%%%%@%*+=-:::-</text>
+<text x="121.0" y="161.9" xml:space="preserve" textLength="247.5" style="animation-delay:0.70s">==---------:::--=*#%@%%%%%%%%#####%%%##*=::::</text>
+<text x="115.5" y="172.9" xml:space="preserve" textLength="258.5" style="animation-delay:0.75s">-=--:-::---::-==+#@@@@@%%%%%%#%###%#%%%##*=:::-</text>
+<text x="115.5" y="183.9" xml:space="preserve" textLength="258.5" style="animation-delay:0.79s">=-:-::::----=====+#%@@@@@@%%%%%%%%@@@@@%%#+:::-</text>
+<text x="110.0" y="194.9" xml:space="preserve" textLength="264.0" style="animation-delay:0.84s">----:::::==---===--::--=+*%%%%%%%%%#***++*#*:::-</text>
+<text x="110.0" y="205.9" xml:space="preserve" textLength="258.5" style="animation-delay:0.89s">------::=+=-*@@@@@@%*+=--=+#%%%#+=-:::---=+*-::</text>
+<text x="104.5" y="216.9" xml:space="preserve" textLength="264.0" style="animation-delay:0.93s">:-++=-::-++-+%*+*#*****++*%%@@@%#+==+*#%@@@#*:::</text>
+<text x="104.5" y="227.9" xml:space="preserve" textLength="258.5" style="animation-delay:0.97s">:=*==-:-+===#*-::-::::-::-%@@@@@#=---===+*#@%-:</text>
+<text x="99.0" y="238.9" xml:space="preserve" textLength="264.0" style="animation-delay:1.02s">:-=**+==+===*****##+==+=:-+#@@@@@+-::::::=:-#%--</text>
+<text x="99.0" y="249.9" xml:space="preserve" textLength="264.0" style="animation-delay:1.06s">:-=+#+=====+#%%%%%###***#%@@@@@@@#*+++++*##%%@==</text>
+<text x="93.5" y="260.9" xml:space="preserve" textLength="269.5" style="animation-delay:1.11s">--==-#*=-=+*#@@@@@@@@@@@@@@@@@@@@@@@@@%%###%@@@**</text>
+<text x="88.0" y="271.9" xml:space="preserve" textLength="269.5" style="animation-delay:1.16s">:-==--+==+**%@@@@@@@@@@%#*+#%@@@@@@@%#%@@@@@@@@@%</text>
+<text x="93.5" y="282.9" xml:space="preserve" textLength="264.0" style="animation-delay:1.20s">-----=++*#%@@@@@@%%%##+=-=%@@@@@@@@#==*#%@@@@@@%</text>
+<text x="88.0" y="293.9" xml:space="preserve" textLength="269.5" style="animation-delay:1.24s">------*=:-%%%%%%%%%%#+-:+*%%*#%@%###%#=+*#%%@@@@*</text>
+<text x="88.0" y="304.9" xml:space="preserve" textLength="275.0" style="animation-delay:1.29s">----::--::#@%%%%%%#*=-=#@@#==+***+=-=#+=+#%%%@@#:+</text>
+<text x="88.0" y="315.9" xml:space="preserve" textLength="280.5" style="animation-delay:1.33s">==-:::::-:-@@%%%%%#+:-#@@@@@%%#**#%@@@%++*#%%%#-:-+</text>
+<text x="82.5" y="326.9" xml:space="preserve" textLength="286.0" style="animation-delay:1.38s">==--:::::-::+@@@@@@%+::::**++===+===+++=:=*#%%%-::-+</text>
+<text x="82.5" y="337.9" xml:space="preserve" textLength="286.0" style="animation-delay:1.43s">==-::::::--::+%@@@@%*=**=+**#+#######::::-#@@%-:::==</text>
+<text x="77.0" y="348.9" xml:space="preserve" textLength="302.5" style="animation-delay:1.47s">+==-::-:::--:::-#@@@%#%@@@@@##**++*###%@%#*%@#-:::::==+</text>
+<text x="77.0" y="359.9" xml:space="preserve" textLength="313.5" style="animation-delay:1.51s">==-::-::::--::::-*%%@@@@@%%@%*++++===*@@@@%#=::::::::-==*</text>
+<text x="77.0" y="370.9" xml:space="preserve" textLength="352.0" style="animation-delay:1.56s">---::::::::::::::+**#%@@@@%%%#******#%@@@#=:::::::::::-==+***+==</text>
+<text x="71.5" y="381.9" xml:space="preserve" textLength="357.5" style="animation-delay:1.60s">+--:::::::::::::::=***++#@@@@@@@@%@@@@@@%+::::::::::::::-==++**==</text>
+<text x="77.0" y="392.9" xml:space="preserve" textLength="357.5" style="animation-delay:1.65s">=-:::::::::::::::-+##*+=+*@@@@@@@@@@@%*=-::::::::::::::::----==-=</text>
+<text x="71.5" y="403.9" xml:space="preserve" textLength="379.5" style="animation-delay:1.70s">#+--::::::::::::::-+#%%%#**+*****###**+=-:::::::::::::::::::::-------</text>
+<text x="38.5" y="414.9" xml:space="preserve" textLength="434.5" style="animation-delay:1.74s">*+=+*=--:::::::::::::::::+#%@@%%%#***+++++**+=:::::::::::::::::::::::::--------</text>
+<text x="33.0" y="425.9" xml:space="preserve" textLength="451.0" style="animation-delay:1.78s">*++==-::::::::::::::--::::=*%@@@%%%#########*=::::::::::::::::::::::::::--===++---</text>
+<text x="33.0" y="436.9" xml:space="preserve" textLength="473.0" style="animation-delay:1.83s">+==-::::---=--::::-----:::-=+%@@@@%%%##%%%%#+-::::::::::::::::::::::::::--------=-=++=</text>
+<text x="22.0" y="447.9" xml:space="preserve" textLength="484.0" style="animation-delay:1.88s">===--::::---:--=-::--==--:::-==+%@@@@%%%%%%%#*=--::::::::::::::::::::-::-----:::-==+####</text>
+<text x="22.0" y="458.9" xml:space="preserve" textLength="484.0" style="animation-delay:1.92s">----:::-=----+%@#+=--=-----:-===+#%@@%%%%%@%*+=--::::::::::::::::::-:-::-::----:--=+##%%</text>
+<text x="22.0" y="469.9" xml:space="preserve" textLength="484.0" style="animation-delay:1.97s">##*+-:--@%##%@@@#*+:----------+++*#%%%%@@@@%#*+=-:::::::::::-:::::::-:-::::::--:---=*%%@</text>
+<text x="22.0" y="480.9" xml:space="preserve" textLength="484.0" style="animation-delay:2.01s">@@@@%##%@%%%%@@@%*+:-----------=**##%%%@@@%%##*=-:::::::::::--::::::----:::::::----=*%%@</text>
+<text x="22.0" y="491.9" xml:space="preserve" textLength="484.0" style="animation-delay:2.05s">@@@@@@@@@%%%%@@@%**-:---------::-*###%%%@@%%%##+-::::::::::::-:::::::----::::::::::=+##%</text>
+<text x="22.0" y="502.9" xml:space="preserve" textLength="484.0" style="animation-delay:2.10s">@@@@@@@@@%%%%@@@###+:::---------:-=*###%%%%%%#@@*--::::::::::--:::::::----:::::::::-=+*#</text>
+<text x="22.0" y="513.9" xml:space="preserve" textLength="484.0" style="animation-delay:2.15s">@@@@@%%@@%%%@@@%####=:::---------:::=*####%%#%@#+++++===-===--+=:::::::-::::::::::::::-=</text>
+<text x="22.0" y="524.9" xml:space="preserve" textLength="484.0" style="animation-delay:2.19s">@@@@@%@@@%%@@@@%%##%#-:::--------=+#%%%%**##%%#***##%%%%####*-=+=:::::::::::::::::::::-+</text>
+<text x="22.0" y="535.9" xml:space="preserve" textLength="484.0" style="animation-delay:2.23s">@@@@@%@@@@@@@@@@%%%%%#-:::----==*#%@@@@@++#%%#####%@@@@@%%%%%#==+=--::::::::::::::::::--</text>
 </g>
 <g font-size="13">
 <text x="536.0" y="35.0" xml:space="preserve" textLength="468.0"><tspan class="text">aishwarya@srivastav </tspan><tspan class="text">────────────────────────────────────────</tspan></text>
