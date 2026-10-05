@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Builds dark_mode.svg and light_mode.svg for the GitHub profile README.
 
+Uses only the Python standard library.
+
 Runs inside GitHub Actions (see .github/workflows/update.yml).
 Edit the INFO block below to change what the card says.
 """
 import datetime as dt
-import io
 import json
 import os
 import sys
@@ -13,7 +14,6 @@ import time
 import urllib.request
 from xml.sax.saxutils import escape
 
-from PIL import Image, ImageOps
 
 USER = "Aishwaryasrivastav31"
 PROMPT = "aishwarya@github"
@@ -43,16 +43,115 @@ CONTACT = [
 ]
 # ---------------------------------------------------------------------------
 
-COLS, ROWS = 44, 21          # ASCII art size in characters
+COLS, ROWS = 90, 45          # ASCII art size in characters
+ACW, ALH, AFS = 4.8, 9.6, 8  # ASCII art char width, line height, font size (px)
 WIDTH = 56                   # info column width in characters
-CW, LH, FS = 9.6, 20, 16     # char width, line height, font size (px)
-RAMP = " .:-=+*#%@"
+CW, LH, FS = 9.6, 20, 16     # info char width, line height, font size (px)
 THEMES = {
     "dark":  dict(bg="#161b22", fg="#c9d1d9", key="#ffa657", val="#a5d6ff", dot="#616e7f"),
     "light": dict(bg="#f6f8fa", fg="#24292f", key="#953800", val="#0a3069", dot="#b6c2d0"),
 }
 API = "https://api.github.com"
 TOKEN = os.environ.get("GH_TOKEN", "")
+
+
+# ASCII portrait, made once from the profile photo (one version per theme).
+ART = {
+"dark": [
+    '                                                                                          ',
+    '                                      .:;***;;:                                           ',
+    '                                 .:*ll*;;**;;***;**;::                                    ',
+    '                              .*JJl*;:..::;*;;lJ*;:;::;:                                  ',
+    '                            :oJJll**;::::::::*Jol*::::::;.                                ',
+    '                           *oJJl*l**;;:..::;*lJoJl*;:...::;                               ',
+    '                         :ooJJll**ll;:::;*lJoo&&XXoll*::..:;                              ',
+    '                        looJJJllll*::::*JoXXX&&&&X&Xool*:..:;                             ',
+    '                       JoJJJl*lll;..;*JXX&&&&&&&&&X&XXoJ*::.:;                            ',
+    '                      lJJll*lll*;::*JoX&Q&&QQQ&&X&XXXXXoJl;.::                            ',
+    '                     .Jl*******;;*loX&QQQQQQ&&&&&XXXXXXXool:.::                           ',
+    '                     J***;;*****JJooXQQ@QQQQQQ&&X&&&&&XXXoJ;.::                           ',
+    '                    ;l**;;;;lJllllll**lJoX&Q&&&&XXXXXXXXX&o*.:.                           ',
+    '                   .ll*l**;loJlX&XX&XoJlllloX&&XoJl*;;***lol.:.                           ',
+    '                   .l&ol*:lXolXoJooJJJJllJX&&&XXJl**llJJooo*.:                            ',
+    '                   ;JXol*loJlJoJl**;::****oQ@QQXJ*;;;;;*lJoJ::                            ',
+    '                  :loXXoJJJJJXXooooJlllllJXQ@@Q&l*;;::****JJ;:                            ',
+    '                  *lJX&JJlJo&&QQ&&XXXoXXXQQQ@QQQoJlllllJooXol                             ',
+    '                 *lJll&oloXQQ@@QQQQ&&&&&&QQQQ@Q&&&XXooXoXX&Xl                             ',
+    '                .*ll*lJJXQQ@@@@@QQ&&XXoJo&QQ@QQQ&oJoXX&&QQQQ*                             ',
+    '                *lll**oloQQ@Q@QQ&&XXJJJJQQ&QQ&&X&XlJJoXX&QQ&.                             ',
+    '               *ll**;;Jl:X@QQQ&&XXolloXXXJJXXJJllJl*lJooXX&J*                             ',
+    '              :*ll**:.:;;lQ@QQ&&Xo*lo&Q&&XXJJlJJooJ**lJJoXJ:;:                            ',
+    '             .llll;;:.:;*:oQQ&Q&Xo*;**ooJllllllllJl*;llJoJ;.;:                            ',
+    '               *ll;.:.:;;::o&&&&XoJooJloXXXXXXool;;;;lJoJ;..**.                           ',
+    '              .Jl*:;*:.;;::.lX&&XXXXXXXXoJJJllJJJJJJlJJJ:..:.*l:                          ',
+    '              lJ*;:*:::;:;...loXX&&X&XXXoJll*l*lJooooJ;...:.::;**.. . ..                  ',
+    '             .l**:::::::::...;JJooX&&&&XXXoJJJooooXJ*.......:.:;*lJoJJl*.                 ',
+    '              l*:;::.:..:.:..:lJJJJJo&&&XXXXXXXXool:..........:::**llXl*.                 ',
+    '             ;ol;:::::........*JJoJJJJJoXooooJJJl*;..............::::;*;;:.               ',
+    '             ll*;::::...::....*JJoooooJJlll*l*l***:.......:..:.::.::;;;:;;*;*:.           ',
+    '            :;:......::.:;;:.:;JJoooooJJJlllllll*:......:.....:::::::::;*lJJJo**..        ',
+    '           .:.:;***;::::;*;::.;*JJoXooooJJJJJll*;::..........:.::::::::;;******llJJll;.   ',
+    '          ...***;;*l*::;***;:::**lJooXoooooJJJl*;:...:...:......:::;;;;;*;;;;*lJJ&XQXJll*;',
+    '  :;****;:::*l**loQ&oJ****;;*;:***lJooooooooJl**;;:..:..:.::.:..:;;;;:;;;***;**loXQQQQQQQ@',
+    'JJoX&&QX&l**oQXXXQ@QoJ*;;;**;;;;*l*llooooXoXoJll*::...:.:::*:.:.::;;*;;;:;;l**l*oX&Q@@@@@@',
+    'Q@@QQ@Q&QQ&&Q@Xo&Q@QXJl:;;;;*;;;;;llJloooXXooJoo*;:::.:::;:**:.:.:;*;*;;:.::;***J&&QQ@@@@@',
+    'QQ@@QQ@&&@&&QQXoXQ@&oJJ;;;;;;;;;;;;llJJJoooooooQX*;::..::;:;;;:.:.:****;;:.::;;*JoX&QQ@@@@',
+    '@QQ@@@&&QQQ&QQXXX@@&oool:::;;;:;;;:;;lJJJoooXo&@&ll**;;:;;**lJ*:.:::;*;*;;;:.::;;lJXXQQ@&&',
+    '@QQQ@@&&QQX&@&X&Q@Q&ooool::::;;;;;;;*JXXXoJJo&QXoJoXXXXXXXXolJJ*::;:;;*;;;;:::::;*lJoooXQ@',
+    '@@&&@QQ&Q&XQQ&&&Q@@&XooXo*:::;:;;*lo&QQQQXlo&&XXXo&&QQQQ&&X&Xlool*:;:::;*;;;:.:.:;*lo&&&Q@',
+    'QQQX@@&&&&X@Q&&Q@@@&XXXXXXl***JoooXX&Q@&QXX&&&XXXQQQQQQQQQ&QQ&JJJJl*;:;::;;:;:.::;*lJoX&&Q',
+    'QQQ&@Q&&XX&QQQQ@@@QQ&XX&&QQ&X&&QQ&XQQQ&QQQ&&&&&&Q@@@@@@@Q@QQQQ&oJJl*::;;:.:::.;:..;;llJXX&',
+    'Q&&&QQ&&XX@QQQQ@@@@&Q&&&QQ@Q&&&QQ&&&Q&QQQ&&&&&&Q@@@@@@@@@@@@@@Q&XJl**;;;;...::.::.:;;lJJo&',
+    '&&XX@&&XX&@QQQ@@@@QQQQQ@@@@QQ&&Q&Q&&Q&&QQQQ@QQ@@@@@@@@@@@@@@@@@Q&oJ**;;*;.:.:;:.:::.;:;lJo',
+],
+"light": [
+    '                                                                                          ',
+    '                                     .:;*:::...                                           ',
+    '                                 :*JJoX&&XoX&XXXXXJ*:.                                    ',
+    '                              .*lJoo&QQQQQXX&XJJX&&&QQX;                                  ',
+    '                            ;lllJooX&QQ@QQQQ&XJlJXQQ&QQQX:                                ',
+    '                          .*llJoXoooX&QQ@QQ&XJl*lJX&Q@@@Q&*                               ',
+    '                         ;lllJJooooo&&QQ&oJll**;**lloX&Q@@Ql                              ',
+    '                       .***llJJJJoX&QQ&oll**;;:;:;;**lJXQ@QQo                             ',
+    '                       lllJJooJooX@QQoJ**;;::::;;;;;;**Jo&@QQ*                            ',
+    '                      *lloJooJoo&Q&XJ*;;::::::;:;;;*;**llo&Q@&                            ',
+    '                     :lJXXoXXoX&&XJl*;::.::::::;;**;**;**lJQ@Q;                           ',
+    '                     lXXXX&XXoXXlll*;:...:..::;;;;;;;;;***l&@Q*                           ',
+    '                    *oXX&X&XoJJJJJJoXooll;;:::;;;*;*;**;*;lXQQ;                           ',
+    '                   :JooooX&J*JJ*;*;*;llJooJl;;;**JJX&X&XoJ*o@Q*                           ',
+    '                   :J;*JXQo*lJ**JlllJlJJJl*;;:;*looooJJll*lo@Q                            ',
+    '                   Jl*lJXJ*lJl*Jooo&Q&oXXol...:*JXX&&XXXJJlJQ.                            ',
+    '                  lol;;lJlJJl****l*lJoJool*:...;JX&&QQXoXoll&.                            ',
+    '                 .oJl*;llJll;::::;;*****;::...::*lJooJoJl**lJ                             ',
+    '                 JoJJJ;lol;:....:.::;;;;;:.:...:;;;******;;;:                             ',
+    '                *XJJoolJ;::.. ...:;;;*ll*;:..:::;ll***;:::.:.                             ',
+    '               .oJooXo;Jl:.....:;;;*lJll:::.::;;;;Joll*;;:::                              ',
+    '              .ooooo&&*o&;..:::;;*lJol;**lll*llooJJoJll**;;Jl                             ',
+    '              *ooJo&&@QX&o..:::;*loo*;::;;*lJJJl**JoXJJl**lQX:                            ',
+    '             .JJJoX&Q@QX&Q*:.::;;loXXol*JJJJJJooJJoXXoJJll&@&*                            ',
+    '               ;Jo&QQQ@&X&Ql:::;;*JlllJ****;l**lJ&&&Xolll&@QXX:                           ',
+    '              .JJXQXX@Q&XQQ@o;;;;**;**;*lllJJJlJllllJJlJQ@Q@QXo;                          ',
+    '              *Jo&&XQ&QXQ&@@@o***;;;;;***loooooJll*llJX@@@Q@QQ&ol.   . .                  ',
+    '              JoXQQQQQQ@&QQ@@&Jll**;;;;;**llllll***lX@@@@@@@QQQ&ooJllJJo.                 ',
+    '              JX&&QQQ@@@Q@@@@QollJll*;;;;********lo&@@@@@@@@@@QQ&XooJ*Jo.                 ',
+    '             .lo&Q&QQQQ@@@@@@@oJllllJll****llllJJXX@@@@@@@@@@@@@@QQQ&&X&J;.               ',
+    '             *Jo&&QQQQ@@QQQ@@@oJll*llllJooooooooXX@@@@@@@@@@@Q@QQQQQ&&&&X&XXXJ.           ',
+    '            *XQ@@@@@@@Q@Q&&Q@QXJl****lllJJJJJJooXQQ@@@@@@@@@@@QQQQQQQ&Q&XJJJlloJ:         ',
+    '           lQ@QXXXoXQ&Q&&XX&@@&oJll***llllllJJoo&&Q@@@@@@Q@@@Q@QQ&QQQ&Q&&XoooXXoJJll;:    ',
+    '          *@@XoX&XXoXQ&&oXX&&Q&XXolll**llllllJoX&&@@@@@@@@@@Q@@QQ&Q&X&&XXX&&&XJJl;;.*lJ*;;',
+    '  ;*lJJoXQQQooXool::lJXXXXXX&&&XoooJ*l****lllJooX&Q@@Q@@QQQQ@@@@Q&&&&&&&XXXoXXoJ**::.:.:..',
+    'Jll*;::;*JXol.**;:..*lo&XX&XXX&&XooJJlll****lJJoX&Q@@QQ@Q&QXQQQ@Q&&XXX&&Q&XoXoXol;::......',
+    '....:..;:.;::.**;:..*Jo&&X&X&X&X&XoJJJl*l***lll*X&QQQ@QQ&&QXoQ@Q@QXXXX&&&@QQ&ooXJ;;:... . ',
+    '.: ...:::.:;:.***..:*ll&&&&&&&&&&&&oJllll*****l:*o&QQQ@QQ&&&X&QQQ@QXXXXX&Q@QQ&&oJ*;;.... .',
+    '.:....:;:.::.:**;..;*llJQ&&&&&&&&&&&XoJlllll**; ;JooX&&&&XXXoJXQ@QQQXXXX&&&QQQQ&Xol**:..::',
+    ' ::: .::::;;.;;;:..;*l**oQQ&&&&&X&&XXl*;*llll;:;lll**;;*****olloQQ&&&&X&XX&&QQQQ&Xoll***:.',
+    '..::..:;::*:.;;:...;**l**XQQQ&&&XXol;:.::;Jl::;***;::::::;;;;JlloX&&&Q&&X&X&&@Q@&&oo*;;;..',
+    '..:;..;:;;;.::::. .:*****;JXXoJ****;:.::.**:;;;*;:...:.::.;:::lJllJX&Q&&Q&&Q&&@&Q&XJJl*;;:',
+    ':::;..;:;*:.:::....:;;;;;:::;;:::;;:::::.::;:;;;:...........::;*JJJoQ&&&Q@Q&Q@&Q@Q&Xoll*;;',
+    '::;;.:;;*;.::... ..:::;::..:;;::::;:.::::;::;:;: .. . . .... ..;;lJXX&&X&Q@@QQ@QQ@Q&&oJl*;',
+    ';;;;.:;;;;..::.. ...:.... ..::::::;;::;..::.::. . .. .. . . ....;*JoX&XX&@QQQ&QQQQQQ&&Xol*',
+],
+}
 
 
 def api(path, body=None, tries=1):
@@ -136,23 +235,6 @@ def uptime(created):
     return ", ".join([plural(y, "year"), plural(m, "month"), plural(d, "day")])
 
 
-def ascii_art(img, invert):
-    """Square photo -> ROWS lines of COLS characters."""
-    img = ImageOps.autocontrast(ImageOps.fit(img.convert("L"), (400, 400)), cutoff=2)
-    img = img.resize((COLS, ROWS), Image.LANCZOS)
-    px = img.load()
-    lines = []
-    for y in range(ROWS):
-        row = ""
-        for x in range(COLS):
-            v = px[x, y] / 255
-            if invert:                       # light theme: dark ink on pale paper
-                v = 1 - v
-            row += RAMP[min(len(RAMP) - 1, int(v * len(RAMP)))]
-        lines.append(row)
-    return lines
-
-
 def build_lines(s):
     """Returns a list of ('rule', title) / ('kv', key, value) / ('blank',)."""
     out = [("rule", PROMPT)]
@@ -178,10 +260,10 @@ def build_lines(s):
 def render(theme, art, lines):
     t = THEMES[theme]
     pad, gap = 20, 24
-    right_x = pad + COLS * CW + gap
+    right_x = pad + COLS * ACW + gap
     width = int(right_x + WIDTH * CW + pad)
-    height = max(len(lines), ROWS) * LH + 2 * pad
-    art_top = (height - ROWS * LH) / 2
+    height = int(max(len(lines) * LH, ROWS * ALH) + 2 * pad)
+    art_top = (height - ROWS * ALH) / 2
     txt_top = (height - len(lines) * LH) / 2
 
     svg = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
@@ -191,8 +273,8 @@ def render(theme, art, lines):
            f'<rect width="{width}" height="{height}" rx="14" fill="{t["bg"]}"/>',
            f'<g fill="{t["fg"]}">']
     for i, row in enumerate(art):
-        svg.append(f'<text x="{pad}" y="{art_top + (i + .75) * LH:.1f}" '
-                   f'textLength="{COLS * CW:.1f}" xml:space="preserve">{escape(row)}</text>')
+        svg.append(f'<text x="{pad}" y="{art_top + (i + .8) * ALH:.1f}" font-size="{AFS}px" '
+                   f'textLength="{COLS * ACW:.1f}" xml:space="preserve">{escape(row)}</text>')
     svg.append('</g>')
 
     for i, line in enumerate(lines):
@@ -218,25 +300,18 @@ def render(theme, art, lines):
 
 
 def main():
-    if len(sys.argv) > 2 and sys.argv[1] == "--demo":      # local preview only
-        img = Image.open(sys.argv[2])
+    if "--demo" in sys.argv:                               # local preview only
         s = dict(created=dt.datetime(2023, 7, 1, tzinfo=dt.timezone.utc), repos=0,
                  stars=0, commits=0, followers=0, added=0, deleted=0)
     else:
         if not TOKEN:
             sys.exit("GH_TOKEN is not set")
         s = fetch_stats()
-        with urllib.request.urlopen(s["avatar"], timeout=30) as r:
-            img = Image.open(io.BytesIO(r.read()))
         print({k: v for k, v in s.items() if k != "avatar"})
-    if img.mode in ("RGBA", "LA", "P"):                    # flatten transparency
-        img = img.convert("RGBA")
-        img = Image.alpha_composite(Image.new("RGBA", img.size, "white"), img)
     lines = build_lines(s)
     for theme in THEMES:
-        art = ascii_art(img, invert=(theme == "light"))
         with open(f"{theme}_mode.svg", "w", encoding="utf-8") as f:
-            f.write(render(theme, art, lines))
+            f.write(render(theme, ART[theme], lines))
     print("wrote dark_mode.svg and light_mode.svg")
 
 
